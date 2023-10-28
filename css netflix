@@ -1,0 +1,64 @@
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.nav img {
+    width: 100px;
+}
+
+/* Style the main content */
+.main {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.jpg') center/cover no-repeat;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Style the movie/show thumbnails */
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.thumbnail-card {
+    margin: 10px;
+}
+
+.thumbnail-card img {
+    width: 200px;
+    height: 300px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
